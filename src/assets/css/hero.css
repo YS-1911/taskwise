@@ -1,0 +1,63 @@
+@import url("./style.css");
+
+.hero-section {
+    padding-top:100px ;
+    height: 100vh;
+    background-image: url("../../../public/image/home-hero-pattern.svg");
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.Smarter-tools{
+    border: 1px solid var(--base-color-neutral--neutral-darker);
+    background-image: linear-gradient(#282828, #212121);
+    border-radius: .5rem;
+    padding: 10px 10px;
+}
+.Smarter-tools p{
+margin: 0 3px;
+color: var(--base-color-neutral--white);
+font-weight: 600;
+font-size: .88rem;
+}
+.hero-title h2{
+    max-width: 750px;
+    font-size: 3rem;
+    color: var(--text-color--text-alternate);
+    line-height: 1.2;
+}
+.hero-title p{
+    max-width: 600px;
+    color: var(--text-color--text-secondary);
+    font-size: 1.1rem;
+}
+.btn-get{
+    text-decoration: none;
+    background-color: var(--base-color-brand--blue-brand);
+    color: var(--text-color--text-alternate);
+    text-align: center;
+    border-radius: .375rem;
+    padding: .6rem 1.25rem;
+    font-size: .875rem;
+    font-weight: 500;
+    transition: ease .4s;
+}
+.btn-get:hover{
+    transform: scale(1.05 );
+}
+.btn-Discover{
+    text-decoration: none;
+    background-color: transparent;
+    color: var(--text-color--text-secondary);
+    text-align: center;
+    padding: .6rem 1.25rem;
+    font-size: .875rem;
+    font-weight: 500
+}
+.btn-Discover:hover{
+    transform: scale(1.05 );
+}
+.companies-trust p {
+    color: var(--text-color--text-secondary);
+    font-size: .875rem;
+}
