@@ -7,7 +7,7 @@ const Nav = () => {
             <nav className="navbar fixed-top navbar-expand-lg bg-body-tertiary custom-navbar m-auto " >
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#">
-                        <img src="../../../public/image/navbar-logo.svg" alt="" />
+                        <img src="./image/navbar-logo.svg" alt="" />
                     </a>
                     <button
                         className="navbar-toggler"
@@ -18,7 +18,7 @@ const Nav = () => {
                         aria-expanded="false"
                         aria-label="Toggle navigation"
                     >
-                        <span className="navbar-toggler-icon" />
+
                     </button>
                     <div className="collapse navbar-collapse " id="navbarSupportedContent">
                         <ul className="navbar-nav ms-auto  mb-2 mb-lg-0">
@@ -54,7 +54,7 @@ const Nav = () => {
                             ">
                                 <a className="d-flex align-items-center " href="#">
                                     Login
-                                    <img className="ms-1" src="../../../public/image/l-logo.svg" alt="" />
+                                    <img className="ms-1" src="./image/l-logo.svg" alt="" />
                                 </a>
                             </li>
                             <li className="nav-item d-flex align-items-center Signup">
@@ -62,9 +62,6 @@ const Nav = () => {
                                     Sign Up
                                 </a>
                             </li>
-                            
-
-
 
                         </ul>
 

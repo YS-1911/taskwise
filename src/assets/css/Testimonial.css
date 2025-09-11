@@ -1,0 +1,17 @@
+.testimonial-section{
+    margin-top: 170px;
+}
+.title-testimonial h2{
+    color: var(--text-color--text-alternate);
+    max-width: 750px;
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+}
+
+.title-testimonial p{
+    color: var(--text-color--text-secondary);
+    font-size: 1.1rem;
+}
