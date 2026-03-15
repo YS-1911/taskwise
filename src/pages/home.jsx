@@ -11,6 +11,8 @@ import HomeFeatureComponent from "../assets/components/home_feature_component.js
 import Testimonial from '../assets/components/Testimonial'
 // Integrations
 import Integrations from '../assets/components/Integrations'
+// Fotter
+import Fotter from '../assets/components/Fotter'
 const Home = () => {
     return (
         <div>
@@ -26,6 +28,8 @@ const Home = () => {
             <Testimonial />
             {/*  ----------- integrations ---------- */}
             <Integrations />
+            {/*  ----------- footer ---------- */}
+            <Fotter />
         </div>
     );
 }

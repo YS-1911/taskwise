@@ -5,9 +5,9 @@
     padding-top: 100px;
     position: relative;
     background-image: url("/image/home-hero-pattern.svg");
-    background-position: 50% 0;
+   
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 .hero-section::before {

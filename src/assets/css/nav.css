@@ -39,7 +39,8 @@
     margin: 0 0.5rem;
 }
 .nav-link.active {
-    color: #2a7ced !important;
+    color: #ffff !important;
+    
     
     transition: all 0.3s ease-in-out;
 }
