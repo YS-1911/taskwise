@@ -38,9 +38,13 @@
     font-size: 1rem;
     margin: 0 0.5rem;
 }
-
+.nav-link.active {
+    color: #2a7ced !important;
+    
+    transition: all 0.3s ease-in-out;
+}
 .nav-link:hover {
-    color: #ffff;
+    color: #ffff !important;
     background-color: var(--base-color-neutral--neutral-darker);
     transition: all 0.3s ease-in-out;
 }

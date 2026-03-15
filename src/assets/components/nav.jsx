@@ -1,14 +1,16 @@
 import React from 'react';
 import "../css/nav.css"
+import Modalsinup from './modalsinup';
+import { NavLink } from 'react-router';
 
 const Nav = () => {
     return (
         <div>
             <nav className="navbar fixed-top navbar-expand-lg bg-body-tertiary custom-navbar m-auto " >
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#">
+                    <NavLink className="navbar-brand" to="/">
                         <img src="./image/navbar-logo.svg" alt="" />
-                    </a>
+                    </NavLink>
                     <button
                         className="navbar-toggler"
                         type="button"
@@ -23,29 +25,29 @@ const Nav = () => {
                     <div className="collapse navbar-collapse " id="navbarSupportedContent">
                         <ul className="navbar-nav ms-auto  mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <a className="nav-link" href="#">
+                                <NavLink className="nav-link" to="/Company">
                                     Company
-                                </a>
+                                </NavLink>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">
+                                <NavLink className="nav-link" to="/Features">
                                     Features
-                                </a>
+                                </NavLink>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">
+                                <NavLink className="nav-link" to="/Pricing">
                                     Pricing
-                                </a>
+                                </NavLink>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">
+                                <NavLink className="nav-link" to="/Blog">
                                     Blog
-                                </a>
+                                </NavLink>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">
+                                <NavLink className="nav-link" to="/Contact">
                                     Contact
-                                </a>
+                                </NavLink>
                             </li>
                         </ul>
                         <ul className="navbar-nav ms-auto  mb-2 mb-lg-0">
@@ -58,19 +60,17 @@ const Nav = () => {
                                 </a>
                             </li>
                             <li className="nav-item d-flex align-items-center Signup">
-                                <a className="d-flex align-items-center" href="#">
+                                <a className="d-flex align-items-center" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                     Sign Up
                                 </a>
                             </li>
-
                         </ul>
-
                     </div>
                 </div>
             </nav>
-
-
+            <Modalsinup />
         </div>
+
     );
 }
 

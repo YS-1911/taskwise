@@ -1,32 +1,32 @@
 import React from 'react'
 // style.css
 import "./assets/css/style.css"
-// nav
-import Nav from './assets/components/nav'
-// hero
-import Hero from './assets/components/hero'
-// features_home
-import FeaturesHome from './assets/components/features_home'
-// features_home_component
-import HomeFeatureComponent from "./assets/components/home_feature_component.jsx"
-// testimonial
-import Testimonial from './assets/components/Testimonial'
+// home page
+import Home from './pages/home.jsx'
+import Blog from './pages/blog.jsx'
+import Company from './pages/company.jsx'
+import Features from './pages/Features.jsx'
+import Pricing from './pages/Pricing.jsx'
+import Contact from './pages/Contact.jsx'
+// react router
+import { Route , Routes } from 'react-router'
 function App() {
 
   return (
     <>
-      {/*------------- nav ---------- */}
-      <Nav />
-      {/*  ----------- hero ---------- */}
-      <Hero />
-      {/*  ----------- features ---------- */}
-      <FeaturesHome />
-      {/*  ----------- home features component ---------- */}
-      <HomeFeatureComponent />
-      {/*  ----------- testimonial ---------- */}
-      <Testimonial />
+      <Routes>
+        <Route path='/' element={<Home/>} errorElement={<h1 style={{color:"red"}}>404</h1>}/>
+        <Route path='/Company' element={<Company/>}/>
+        <Route path='/Blog' element={<Blog/>}/>
+        <Route path='/Pricing' element={<Pricing/>}/>
+        <Route path='/Contact' element={<Contact/>}/>
+        <Route path='/Features' element={<Features/>}/>
+        <Route path='/*' element={ <h1 style={{color:"red"}}>404</h1>}/>
+        
+      </Routes>
     </>
   )
+
 }
 
 export default App

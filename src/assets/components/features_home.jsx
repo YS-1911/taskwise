@@ -120,7 +120,7 @@ const FeaturesHome = () => {
 
                                     </div>
                                     <h3 className='my-2 '>Event Analytics</h3>
-                                    <p className='my-2 text-center'>Utilize advanced algorithms to analyze participants' schedules and suggest the most convenient time slots, ensuring maximum attendance and productivity.</p>
+                                    <p className='my-2 text-center mx-4'>Utilize advanced algorithms to analyze participants' schedules and suggest the most convenient time slots, ensuring maximum attendance and productivity.</p>
                                 </div>
 
                             </div>
@@ -147,7 +147,7 @@ const FeaturesHome = () => {
                                     </div>
                                     <h3 className='my-2 '>Connect Calendar
                                     </h3>
-                                    <p className='my-2 text-center'>Easily coordinate meetings and events by leveraging our intuitive scheduling tools that automatically suggest the best times based on participants' availability and preferences.</p>
+                                    <p className='my-2 mx-4 text-center'>Easily coordinate meetings and events by leveraging our intuitive scheduling tools that automatically suggest the best times based on participants' availability and preferences.</p>
                                 </div>
 
                             </div>
